@@ -1,0 +1,82 @@
+ddp_courseprojectpresentation
+========================================================
+author: Ishita Joshi  
+date: 28/6/2017
+
+
+Introduction
+========================================================
+
+This application is developed using R Programming 
+language in R Studio. The application
+has been made in shiny environment under R studio for interface
+designing.
+This is a fairly good app that can be used to basically
+get some good suggestions to listen music and watch movies 
+according to your mood and genre type entered.
+
+Main uses of application are as follows:
+
+- Predicting music according to mood
+- Predicting movie according to genre
+
+
+Instructions
+========================================================
+
+While inputting the mood and genre always keep caps-off
+
+Below is the list of moods you can enter:
+
+- happy
+- sad
+- alone
+- angry
+- bitchy
+- blank
+- confused
+- depressed
+
+========================================================
+
+- energetic
+- geeky
+- high 
+- lazy
+- pleased
+ 
+Below is the list of genre you can enter:
+
+- action
+- musicals
+- biopic
+- period
+- romance
+
+========================================================
+
+- animation
+- science fiction
+- cult
+- disaster
+- spy
+- drama
+- fantasy
+- thriller
+- gangster
+- war
+- westerns
+- horror
+
+
+Slide With Code
+========================================================
+```{r}
+
+x <- rnorm(100) 
+y <- x + rnorm(100)
+plot(x,y,xlab="smile", ylab="happiness", main="Relation b/w laughing and happiness" )
+
+```
+
+
